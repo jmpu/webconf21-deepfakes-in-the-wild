@@ -13,9 +13,16 @@ AI-manipulated videos, commonly known as deepfakes, are an emerging problem. Rec
 
 | Datasets | #Videos  | #Frames | Total duration | Avg. Duration  |
 | :----------: | :-: | :-: | :-----: | :-: |
-| DF-W YouTube | 1062 | 2.9M | 30h 1m 12s | 1m 42s |
-| DF-W Bilibili | 807 | 1.9M | 18h 48m 48s | 1m 24s |
+| DF-W YouTube | 1062[^1] | 2.9M | 30h 1m 12s | 1m 42s |
+| DF-W Bilibili | 807[^2] | 1.9M | 18h 48m 48s | 1m 24s |
 | DF-W | 1869 | 4.8M | 48h 50m 00s | 1m 34s |
+
+[^1]: As we mentioned in the paper, for 5 videos of DF-W YouTube (1,062 videos), no faces were detected by the face
+detector. These 5 videos do not contribute to the detection evaluation results in the paper, and we choose not to release them.
+[^2]: There are 2 videos with (.part) extension in the DF-W Bilibili datasets. Part of these 2 videos was corrupted due to technical issues while downloading. You may exclude them for your evaluation. 
+
+
+
 
 To fairly evaluate the functionality of each step in a detection pipeline, e.g., extracting faces and detecting on per face, we choose to not split/post-process/modify these videos in any way. All the videos are in its original form. All the videos are published on YouTube and Bilibili and can be viewed by the public.
 
