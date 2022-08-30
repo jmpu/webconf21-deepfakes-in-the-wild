@@ -28,6 +28,11 @@ DF-W YouTube samples           |  DF-W Bilibili samples
 :-------------------------:|:-------------------------:
 <img src="samples/sample1.png" width="500">|<img src="samples/sample2.png" width="500">
 
+## A Note Regarding the DF-W Evaluation
+
+The negative-class videos (real videos) for evaluating detection schemes on DF-W were sampled from real videos of 6 research community datasets studied in the paper. We proportionally sampled 1,864 real videos from each of the research community datasets to build a balanced dataset (Table 3 of the paper). In this GitHub repository, we only release deepfake videos that we collected from the wild. To build a two-class video dataset, you may either follow the same strategy (i.e., sample real videos from research community datasets), or curate your own negative-class videos.
+
+
 ## Request and Download the dataset
 
 In order to download the Dataset, please fill out the [Google form](https://docs.google.com/forms/d/e/1FAIpQLScrIbmoK12TnAdeMj9f33Xc-UD4YD5dPiXjPzLL3VoTEYYHOA/viewform?usp=sf_link) after reading and agreeing our License Agreement. Upon acceptance of your request, the download link will be sent to the provided e-mail address. For any questions or feedback, please e-mail <jmpu@vt.edu> with the subject [Question about the DF-W Dataset]. You may untar the tar.gz files containing the dataset as follows:
