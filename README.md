@@ -22,8 +22,6 @@ detector. These 5 videos do not contribute to the detection evaluation results i
 [^2]: There are 2 videos with (.part) extension in the DF-W Bilibili datasets. Part of these 2 videos was corrupted due to technical issues while downloading. You may exclude them for your evaluation. 
 
 
-
-
 To fairly evaluate the functionality of each step in a detection pipeline, e.g., extracting faces and detecting on per face, we choose to not split/post-process/modify these videos in any way. All the videos are in its original form. All the videos are published on YouTube and Bilibili and can be viewed by the public.
 
 DF-W YouTube samples           |  DF-W Bilibili samples
@@ -32,7 +30,7 @@ DF-W YouTube samples           |  DF-W Bilibili samples
 
 ## Request and Download the dataset
 
-In order to download Deep Fakes Dataset, please fill out the [Google form](https://docs.google.com/forms/d/e/1FAIpQLScrIbmoK12TnAdeMj9f33Xc-UD4YD5dPiXjPzLL3VoTEYYHOA/viewform?usp=sf_link) after reading and agreeing our License Agreement. Upon acceptance of your request, the download link will be sent to the provided e-mail address. For any questions or feedback, please e-mail <jmpu@vt.edu> with the subject [Question about the DF-W Dataset]. You may untar the tar.gz files containing the dataset as follows:
+In order to download the Dataset, please fill out the [Google form](https://docs.google.com/forms/d/e/1FAIpQLScrIbmoK12TnAdeMj9f33Xc-UD4YD5dPiXjPzLL3VoTEYYHOA/viewform?usp=sf_link) after reading and agreeing our License Agreement. Upon acceptance of your request, the download link will be sent to the provided e-mail address. For any questions or feedback, please e-mail <jmpu@vt.edu> with the subject [Question about the DF-W Dataset]. You may untar the tar.gz files containing the dataset as follows:
 
 ```bash
 tar -xvzf XXX.tar.gz
@@ -48,7 +46,7 @@ tar -xvzf XXX.tar.gz
 
 * Once the above application form has been filled out, we will verify the applicant’s academic email address, academic affiliation, and other necessary information. We require a strict agreement to ensure that the dataset is used only for research purposes.
 
-* The dataset download link will expire automatically in xxx days, after the email is sent to the applicant.
+* The dataset download link will expire automatically in 5 days, after the email is sent to the applicant.
 
 * If you are the video creator and some parts of the dataset affect you, you can contact us to remove them.
 
