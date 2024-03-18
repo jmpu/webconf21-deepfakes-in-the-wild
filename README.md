@@ -35,7 +35,7 @@ The negative-class videos (real videos) for evaluating detection schemes on DF-W
 
 ## Request and Download the dataset
 
-In order to download the Dataset, please fill out the [Google form](https://docs.google.com/forms/d/e/1FAIpQLScrIbmoK12TnAdeMj9f33Xc-UD4YD5dPiXjPzLL3VoTEYYHOA/viewform?usp=sf_link) after reading and agreeing our License Agreement. Upon acceptance of your request, the download link will be sent to the provided e-mail address. For any questions or feedback, please e-mail <jmpu@vt.edu> with the subject [Question about the DF-W Dataset]. You may untar the tar.gz files containing the dataset as follows:
+In order to download the Dataset, please fill out the [Google form](https://docs.google.com/forms/d/e/1FAIpQLSdtfjbVmFKzoVj8k6w1JzgYXpMTQPxzbzKjgImVwnx1MSWIeA/viewform) after reading and agreeing our License Agreement. Upon acceptance of your request, the download link will be sent to the provided e-mail address. For any questions or feedback, please e-mail <jmpu@vt.edu> with the subject [Question about the DF-W Dataset]. You may untar the tar.gz files containing the dataset as follows:
 
 ```bash
 tar -xvzf XXX.tar.gz
